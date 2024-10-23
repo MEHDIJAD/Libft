@@ -4,7 +4,7 @@ cc = gcc
 
 # Source and object file
 
-SRC = main.c ft_strlen.c
+SRC = main.c ft_memset.c ft_memcpy.c
 OBJ = $(SRC:.c=.o) 
 
 # Default rule
