@@ -36,8 +36,9 @@ int main(void)
     //char *result = ft_memchr(str, c, 14);
 	//char *result1 = ft_memchr(str1, c1, 14);
     //printf("%s\n%s", result, result1);
-	const char *s1 = "Hello, Go, man";
-	const char *s2 = "Go";
-	char *r = strnstr(s1, s2, 15);
-	printf("%s", r);
+	//const char *s1 = "Hello, Go, man";
+	//const char *s2 = "Go";
+	//char *r = strnstr(s1, s2, 15);
+	//printf("%s", r);
+	printf("%d\n", ft_atoi(" ---+--+1234ab567"));
 }
