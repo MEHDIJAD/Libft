@@ -27,10 +27,3 @@ int ft_atoi(const char *nptr)
 
     return number * signe;
 }
-
-int main(void)
-{
-    printf("%d\n", ft_atoi(" ---+--+1234ab567"));  // Expected output: -1234
-
-    return 0;
-}

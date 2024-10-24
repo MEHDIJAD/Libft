@@ -40,5 +40,17 @@ int main(void)
 	//const char *s2 = "Go";
 	//char *r = strnstr(s1, s2, 15);
 	//printf("%s", r);
-	printf("%d\n", ft_atoi(" ---+--+1234ab567"));
+	//printf("%d\n", ft_atoi(" -1234ab567"));
+	//const char *str = "frhgthth";
+	//char *cpy = ft_strdup(str); 
+	//printf ("%s", cpy);
+
+	size_t n, z;
+	n = 10;
+	z = sizeof(int);
+	int *ptr = ft_calloc(n, z);
+	printf("ptr[%d]\t ptr[%d]\t ptr[%d]", ptr[0], ptr[1], ptr[2]);
+
+	
 }
+

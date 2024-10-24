@@ -2,6 +2,7 @@
 #define LIBFT_H
 
 #include <string.h>
+#include <stdlib.h>
 int ft_isalpha(char c);
 int ft_isdigit(char c);
 int ft_isalnum(char c);
@@ -23,5 +24,7 @@ void    *ft_memchr(const void *s, int c, size_t n);
 int ft_memcmp(const void *s1, const void *s2, size_t n);
 char *strnstr(const char *haystack, const char *needle, size_t len);
 int ft_atoi(const char *nptr);
+char *ft_strdup(const char *s);
+void *ft_calloc(size_t nmemb, size_t size);
 
 #endif
